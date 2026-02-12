@@ -1,0 +1,201 @@
+asset_id,type,location,purchase_date,cost,status
+1,Lighting System,Building C,2017-01-18,19654.23,Under Maintenance
+2,Elevator,Building B,2023-08-24,48438.03,Active
+3,Lighting System,Building C,2025-03-06,22180.0,Active
+4,Air Conditioner,Building B,2017-08-16,36090.82,Under Maintenance
+5,Air Conditioner,Building C,2016-05-30,15278.08,Retired
+6,Air Conditioner,Building B,2017-01-16,19685.59,Retired
+7,Lighting System,Building A,2021-04-13,44661.55,Under Maintenance
+8,Air Conditioner,Building C,2022-08-19,34461.78,Under Maintenance
+9,Pump,Building A,2021-02-02,15969.49,Under Maintenance
+10,Elevator,Building B,2017-01-02,22302.14,Retired
+11,Generator,Building B,2023-04-18,6684.49,Under Maintenance
+12,Generator,Building C,2017-10-25,36117.85,Retired
+13,Pump,Building A,2016-08-16,34745.57,Under Maintenance
+14,Pump,Building A,2025-08-16,11096.09,Under Maintenance
+15,Pump,Building B,2019-10-12,21522.78,Retired
+16,Pump,Building D,2023-04-26,39958.39,Active
+17,Lighting System,Building A,2023-10-10,25196.66,Active
+18,Pump,Building C,2018-07-19,19532.51,Active
+19,Pump,Building C,2019-12-25,43473.77,Under Maintenance
+20,Lighting System,Building C,2018-09-07,25822.07,Under Maintenance
+21,Pump,Building D,2025-11-01,13936.16,Retired
+22,Elevator,Building A,2018-01-16,45524.85,Under Maintenance
+23,Lighting System,Building A,2021-02-22,47887.97,Active
+24,Air Conditioner,Building A,2022-12-06,28806.01,Under Maintenance
+25,Pump,Building D,2021-05-09,34459.76,Under Maintenance
+26,Lighting System,Building A,2019-07-01,47674.87,Active
+27,Generator,Building D,2022-08-01,22682.74,Under Maintenance
+28,Lighting System,Building C,2021-05-24,14513.94,Retired
+29,Lighting System,Building C,2021-10-07,32886.51,Active
+30,Lighting System,Building D,2017-12-12,39731.45,Retired
+31,Lighting System,Building C,2017-09-29,14182.4,Under Maintenance
+32,Generator,Building D,2020-08-17,23282.28,Active
+33,Lighting System,Building D,2016-03-20,19887.02,Active
+34,Air Conditioner,Building B,2024-11-14,21860.45,Retired
+35,Pump,Building D,2021-04-10,6074.56,Under Maintenance
+36,Air Conditioner,Building B,2017-06-25,5895.01,Active
+37,Pump,Building B,2024-01-05,20653.5,Under Maintenance
+38,Air Conditioner,Building A,2021-08-06,24558.85,Active
+39,Lighting System,Building C,2018-08-28,22587.79,Under Maintenance
+40,Lighting System,Building C,2016-03-02,34398.08,Under Maintenance
+41,Lighting System,Building C,2017-07-06,44417.41,Under Maintenance
+42,Pump,Building B,2023-05-26,25820.48,Active
+43,Lighting System,Building C,2019-05-28,15063.2,Under Maintenance
+44,Generator,Building A,2019-09-05,10225.25,Under Maintenance
+45,Elevator,Building A,2022-03-09,28902.35,Under Maintenance
+46,Elevator,Building D,2016-03-07,30601.29,Under Maintenance
+47,Elevator,Building A,2024-11-24,13585.85,Active
+48,Lighting System,Building B,2017-11-11,45285.96,Under Maintenance
+49,Elevator,Building B,2019-03-18,31366.26,Under Maintenance
+50,Elevator,Building A,2017-07-16,13688.35,Retired
+51,Generator,Building C,2016-07-09,5005.62,Active
+52,Lighting System,Building B,2021-01-09,47774.29,Active
+53,Generator,Building B,2021-01-27,49569.61,Active
+54,Pump,Building C,2018-06-26,24583.54,Under Maintenance
+55,Generator,Building C,2019-06-26,25843.55,Retired
+56,Pump,Building D,2024-02-21,17447.94,Active
+57,Air Conditioner,Building C,2016-06-08,6295.46,Under Maintenance
+58,Elevator,Building C,2023-06-19,20496.25,Active
+59,Air Conditioner,Building B,2025-06-24,21439.97,Retired
+60,Elevator,Building A,2021-05-13,12806.12,Retired
+61,Lighting System,Building C,2016-07-18,19553.08,Under Maintenance
+62,Generator,Building B,2017-03-07,18002.6,Retired
+63,Elevator,Building C,2016-07-06,30628.67,Under Maintenance
+64,Elevator,Building D,2024-01-25,41379.51,Active
+65,Lighting System,Building A,2022-10-19,45815.58,Under Maintenance
+66,Pump,Building A,2022-06-26,45104.24,Under Maintenance
+67,Air Conditioner,Building B,2025-07-05,49121.45,Active
+68,Lighting System,Building A,2021-03-31,35627.89,Active
+69,Lighting System,Building B,2025-09-17,48193.32,Under Maintenance
+70,Lighting System,Building B,2018-10-20,11395.83,Active
+71,Air Conditioner,Building C,2019-07-07,8254.59,Under Maintenance
+72,Elevator,Building A,2016-09-15,42873.45,Retired
+73,Elevator,Building C,2023-02-28,42260.54,Active
+74,Pump,Building B,2022-10-08,5219.06,Active
+75,Generator,Building C,2021-02-08,8051.23,Active
+76,Air Conditioner,Building C,2023-01-26,7120.29,Active
+77,Elevator,Building B,2024-04-09,27307.61,Under Maintenance
+78,Generator,Building B,2025-08-09,43649.31,Active
+79,Elevator,Building B,2025-06-24,10774.72,Active
+80,Generator,Building D,2023-04-08,45499.04,Active
+81,Elevator,Building B,2021-05-29,12359.88,Active
+82,Pump,Building C,2025-07-28,8714.26,Under Maintenance
+83,Air Conditioner,Building D,2016-10-20,21766.59,Retired
+84,Elevator,Building A,2021-08-03,7360.79,Retired
+85,Pump,Building D,2018-03-08,36335.42,Under Maintenance
+86,Generator,Building C,2024-01-16,34880.24,Retired
+87,Elevator,Building C,2021-06-22,29990.39,Retired
+88,Lighting System,Building A,2019-07-11,17386.56,Active
+89,Lighting System,Building B,2021-03-26,45192.98,Active
+90,Generator,Building D,2022-10-05,33323.33,Under Maintenance
+91,Lighting System,Building B,2022-12-25,48372.48,Retired
+92,Pump,Building D,2020-01-30,7344.75,Retired
+93,Lighting System,Building C,2017-12-01,23667.92,Active
+94,Generator,Building D,2017-06-22,35826.79,Retired
+95,Lighting System,Building C,2022-08-30,37519.29,Retired
+96,Lighting System,Building B,2023-05-31,17890.94,Retired
+97,Lighting System,Building D,2024-04-16,24351.76,Under Maintenance
+98,Generator,Building D,2017-09-14,22194.53,Under Maintenance
+99,Generator,Building B,2020-05-06,39797.27,Retired
+100,Air Conditioner,Building D,2023-06-14,7679.79,Under Maintenance
+101,Air Conditioner,Building B,2024-08-03,16161.37,Active
+102,Air Conditioner,Building A,2016-05-22,26682.95,Retired
+103,Generator,Building C,2016-04-09,17801.09,Retired
+104,Elevator,Building B,2022-08-01,16108.5,Active
+105,Generator,Building B,2022-03-15,12719.11,Retired
+106,Elevator,Building A,2017-12-15,25368.07,Active
+107,Air Conditioner,Building D,2018-12-08,40209.95,Active
+108,Air Conditioner,Building D,2017-12-19,23386.55,Retired
+109,Air Conditioner,Building D,2017-12-27,31981.7,Active
+110,Elevator,Building B,2024-01-06,46194.05,Active
+111,Air Conditioner,Building A,2020-04-10,37473.45,Under Maintenance
+112,Elevator,Building A,2016-07-03,20691.99,Under Maintenance
+113,Pump,Building B,2018-02-07,33274.61,Active
+114,Generator,Building C,2024-08-16,46725.92,Retired
+115,Lighting System,Building A,2022-07-28,47349.86,Retired
+116,Air Conditioner,Building B,2019-01-01,5840.8,Active
+117,Lighting System,Building A,2018-07-07,24204.27,Active
+118,Elevator,Building C,2022-11-12,30081.12,Active
+119,Lighting System,Building D,2025-12-21,26530.68,Under Maintenance
+120,Air Conditioner,Building C,2022-12-03,40186.12,Under Maintenance
+121,Elevator,Building B,2024-04-29,5096.56,Retired
+122,Air Conditioner,Building A,2020-03-11,24901.64,Under Maintenance
+123,Elevator,Building B,2016-06-20,8553.48,Retired
+124,Lighting System,Building B,2016-03-09,21221.86,Under Maintenance
+125,Pump,Building A,2017-02-16,19433.14,Retired
+126,Generator,Building C,2021-03-04,34340.4,Active
+127,Air Conditioner,Building D,2021-05-10,10161.3,Active
+128,Generator,Building C,2023-08-28,6939.41,Retired
+129,Elevator,Building D,2016-08-21,30133.44,Active
+130,Air Conditioner,Building C,2021-05-31,11663.48,Retired
+131,Generator,Building A,2016-12-31,20879.41,Active
+132,Pump,Building D,2018-08-11,36696.5,Retired
+133,Lighting System,Building C,2022-07-18,47577.71,Active
+134,Lighting System,Building D,2024-05-14,9621.22,Active
+135,Generator,Building C,2023-01-24,8378.43,Active
+136,Pump,Building A,2017-10-23,21845.47,Under Maintenance
+137,Generator,Building B,2024-06-20,19435.16,Under Maintenance
+138,Pump,Building D,2022-03-16,37173.21,Active
+139,Elevator,Building B,2022-11-03,5348.13,Retired
+140,Generator,Building C,2024-04-15,28092.39,Active
+141,Pump,Building D,2023-06-09,49762.63,Retired
+142,Lighting System,Building A,2023-12-30,23009.76,Under Maintenance
+143,Pump,Building D,2025-05-23,47182.15,Active
+144,Elevator,Building B,2021-08-21,9700.94,Active
+145,Lighting System,Building D,2019-07-01,5753.54,Retired
+146,Pump,Building B,2017-07-05,5404.71,Retired
+147,Pump,Building B,2024-12-18,23921.31,Under Maintenance
+148,Elevator,Building D,2020-02-29,49644.33,Under Maintenance
+149,Generator,Building C,2020-09-25,29544.34,Retired
+150,Air Conditioner,Building D,2021-08-15,13415.35,Active
+151,Air Conditioner,Building A,2022-03-17,20151.92,Retired
+152,Lighting System,Building C,2019-08-25,24035.82,Active
+153,Generator,Building C,2018-02-09,6946.58,Under Maintenance
+154,Elevator,Building A,2018-12-02,38552.77,Retired
+155,Pump,Building B,2019-04-06,26339.95,Under Maintenance
+156,Lighting System,Building D,2020-06-08,41307.4,Under Maintenance
+157,Pump,Building A,2017-08-31,17240.88,Active
+158,Generator,Building B,2024-07-10,21213.61,Under Maintenance
+159,Pump,Building A,2017-07-30,38937.0,Active
+160,Pump,Building C,2020-04-05,8675.99,Under Maintenance
+161,Lighting System,Building A,2024-05-16,20082.05,Retired
+162,Lighting System,Building D,2025-05-18,5096.29,Under Maintenance
+163,Generator,Building A,2024-01-19,6796.81,Active
+164,Pump,Building B,2017-09-14,14167.49,Under Maintenance
+165,Elevator,Building C,2017-07-22,25190.81,Under Maintenance
+166,Lighting System,Building B,2017-02-21,15513.26,Under Maintenance
+167,Generator,Building A,2025-11-02,23837.52,Active
+168,Lighting System,Building D,2021-12-16,19588.5,Retired
+169,Lighting System,Building A,2022-08-27,49667.09,Retired
+170,Air Conditioner,Building D,2021-07-12,38677.35,Active
+171,Pump,Building B,2017-04-10,29597.35,Under Maintenance
+172,Elevator,Building B,2020-01-28,47868.24,Retired
+173,Air Conditioner,Building B,2021-04-27,17019.97,Retired
+174,Elevator,Building B,2019-04-30,7783.0,Active
+175,Air Conditioner,Building A,2018-05-24,26326.44,Retired
+176,Lighting System,Building B,2022-07-15,22884.57,Under Maintenance
+177,Lighting System,Building C,2018-06-26,38235.63,Retired
+178,Lighting System,Building C,2025-06-04,29187.3,Under Maintenance
+179,Elevator,Building C,2017-07-03,38651.08,Under Maintenance
+180,Lighting System,Building D,2021-06-10,14992.98,Retired
+181,Elevator,Building D,2023-11-03,41402.13,Retired
+182,Air Conditioner,Building D,2021-10-09,16393.58,Active
+183,Generator,Building C,2024-03-03,7122.63,Under Maintenance
+184,Elevator,Building A,2023-06-16,38102.18,Under Maintenance
+185,Pump,Building D,2017-05-04,19747.52,Retired
+186,Generator,Building A,2024-03-30,15961.24,Retired
+187,Elevator,Building A,2018-07-13,6879.99,Active
+188,Lighting System,Building A,2025-07-13,12809.43,Under Maintenance
+189,Lighting System,Building A,2023-09-25,41742.11,Retired
+190,Pump,Building C,2016-03-24,12542.98,Retired
+191,Lighting System,Building D,2025-09-25,28266.37,Active
+192,Air Conditioner,Building D,2021-04-09,43432.56,Under Maintenance
+193,Air Conditioner,Building B,2023-12-15,10520.87,Retired
+194,Elevator,Building A,2025-08-22,18368.77,Active
+195,Air Conditioner,Building D,2017-08-31,8100.92,Active
+196,Generator,Building C,2024-09-10,10121.68,Retired
+197,Air Conditioner,Building B,2025-02-10,37173.29,Active
+198,Air Conditioner,Building C,2022-03-27,9173.98,Active
+199,Pump,Building D,2016-08-19,10905.73,Active
+200,Pump,Building B,2022-04-07,32489.52,Active
