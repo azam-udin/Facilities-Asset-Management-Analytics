@@ -33,76 +33,76 @@ This project simulates a real world asset management system using synthetic data
 
 📊 Key Analyst Questions
 
-Q1: What is the total asset value by location?
+### Q1: What is the total asset value by location?
 
-SELECT location, SUM(cost) AS total_asset_value
+<pre>```sqlSELECT location, SUM(cost) AS total_asset_value
 FROM assets
 GROUP BY location
-ORDER BY total_asset_value DESC;
+ORDER BY total_asset_value DESC;```</pre>
 
 <img width="756" height="320" alt="image" src="https://github.com/user-attachments/assets/cecad43e-15b7-4076-a35d-8a2280388ac3" />
 
 
-#Q2: Which asset categories are most expensive overall?
+### Q2: Which asset categories are most expensive overall?
 
-SELECT category, SUM(cost) AS total_category_cost
+<pre>```sqlSELECT category, SUM(cost) AS total_category_cost
 FROM assets
 GROUP BY category
-ORDER BY total_category_cost DESC;
+ORDER BY total_category_cost DESC;```</pre>
 
 <img width="763" height="377" alt="image" src="https://github.com/user-attachments/assets/008ec085-7916-4aa4-91e6-0b743ca2f04d" />
 
 
-#Q3: Which assets have the highest maintenance cost?
+### Q3: Which assets have the highest maintenance cost?
 
-SELECT a.asset_name, a.category, SUM(m.cost) AS total_maintenance_cost
+<pre>```sqlSELECT a.asset_name, a.category, SUM(m.cost) AS total_maintenance_cost
 FROM assets a
 JOIN maintenance_logs m ON a.asset_id = m.asset_id
 GROUP BY a.asset_name, a.category
 ORDER BY total_maintenance_cost DESC
-LIMIT 5;
+LIMIT 5;```</pre>
 
 <img width="975" height="318" alt="image" src="https://github.com/user-attachments/assets/78881450-2e8b-416d-b4b2-3352bfc6bd61" />
 
 
-#Q4: What are the most common maintenance issue types?
+### Q4: What are the most common maintenance issue types?
 
-SELECT issue_type, COUNT(*) AS issue_count
+<pre>```sqlSELECT issue_type, COUNT(*) AS issue_count
 FROM maintenance_logs
 GROUP BY issue_type
-ORDER BY issue_count DESC;
+ORDER BY issue_count DESC;```</pre>
 
 <img width="975" height="318" alt="image" src="https://github.com/user-attachments/assets/9d2214f6-9761-4ac4-b8fe-280ccca7b89e" />
 
 
-#Q5: Which technicians handled the most maintenance tasks?
+### Q5: Which technicians handled the most maintenance tasks?
 
-SELECT technician, COUNT(*) AS task_count
+<pre>```sqlSELECT technician, COUNT(*) AS task_count
 FROM maintenance_logs
 GROUP BY technician
 ORDER BY task_count DESC
-LIMIT 5;
+LIMIT 5;```</pre>
 
 <img width="975" height="318" alt="image" src="https://github.com/user-attachments/assets/84ac4200-376e-4c18-8efb-82b0f7731995" />
 
 
-#Q6: What is the average maintenance cost per issue type?
+### Q6: What is the average maintenance cost per issue type?
 
-SELECT issue_type, ROUND(AVG(cost), 2) AS avg_cost
+<pre>```sqlSELECT issue_type, ROUND(AVG(cost), 2) AS avg_cost
 FROM maintenance_logs
 GROUP BY issue_type
-ORDER BY avg_cost DESC;
+ORDER BY avg_cost DESC;```</pre>
 
 <img width="636" height="317" alt="image" src="https://github.com/user-attachments/assets/24bc4e26-0724-4fdc-b010-a0f97e461cfb" />
 
 
-#Q7: Join assets with maintenance logs for full history
+### Q7: Join assets with maintenance logs for full history
 
-SELECT a.asset_name, a.category, a.location, m.maintenance_date, m.technician, m.cost, m.issue_type
+<pre>```sqlSELECT a.asset_name, a.category, a.location, m.maintenance_date, m.technician, m.cost, m.issue_type
 FROM assets a
 JOIN maintenance_logs m ON a.asset_id = m.asset_id
 ORDER BY m.maintenance_date DESC
-LIMIT 10;
+LIMIT 10;```</pre>
 
 <img width="965" height="275" alt="image" src="https://github.com/user-attachments/assets/31c1e776-bd6d-4be8-8037-6a451bc1bb66" />
 
