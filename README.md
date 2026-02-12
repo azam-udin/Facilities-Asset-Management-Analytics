@@ -33,12 +33,13 @@ This project simulates a real world asset management system using synthetic data
 
 📊 Key Analyst Questions
 
-#Q1: What is the total asset value by location?
+###Q1: What is the total asset value by location?
 
-SELECT location, SUM(cost) AS total_asset_value
-FROM assets
-GROUP BY location
-ORDER BY total_asset_value DESC;
+'''sql
+SELECT location, SUM(cost) AS total_asset_value...
+FROM assets...
+GROUP BY location...
+ORDER BY total_asset_value DESC;...
 
 <img width="756" height="320" alt="image" src="https://github.com/user-attachments/assets/cecad43e-15b7-4076-a35d-8a2280388ac3" />
 
