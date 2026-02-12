@@ -35,7 +35,6 @@ This project simulates a real world asset management system using synthetic data
 
 Q1: What is the total asset value by location?
 
-sql
 SELECT location, SUM(cost) AS total_asset_value
 FROM assets
 GROUP BY location
