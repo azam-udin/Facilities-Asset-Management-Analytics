@@ -28,6 +28,25 @@ This project simulates a real world asset management system using synthetic data
 
 🧩 ER Diagram
 
+<pre>Table assets {
+  asset_id int [pk]
+  asset_name varchar
+  category varchar
+  location varchar
+  purchase_date date
+  cost numeric
+  status varchar
+}</pre>
+
+<pre>Table maintenance_logs {
+  log_id int [pk]
+  asset_id int [ref: > assets.asset_id]
+  technician varchar
+  maintenance_date date
+  cost numeric
+  issue_type varchar
+}</pre>
+
 <img width="774" height="376" alt="ER Diagram" src="https://github.com/user-attachments/assets/2499af47-9186-4dee-a702-9ee397491852" />
 
 
