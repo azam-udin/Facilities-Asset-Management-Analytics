@@ -35,7 +35,7 @@ This project simulates a real world asset management system using synthetic data
 
 ### Q1: What is the total asset value by location?
 
-<pre>```sqlSELECT location, SUM(cost) AS total_asset_value
+<pre>```SELECT location, SUM(cost) AS total_asset_value
 FROM assets
 GROUP BY location
 ORDER BY total_asset_value DESC;```</pre>
@@ -45,7 +45,7 @@ ORDER BY total_asset_value DESC;```</pre>
 
 ### Q2: Which asset categories are most expensive overall?
 
-<pre>```sqlSELECT category, SUM(cost) AS total_category_cost
+<pre>```SELECT category, SUM(cost) AS total_category_cost
 FROM assets
 GROUP BY category
 ORDER BY total_category_cost DESC;```</pre>
@@ -55,7 +55,7 @@ ORDER BY total_category_cost DESC;```</pre>
 
 ### Q3: Which assets have the highest maintenance cost?
 
-<pre>```sqlSELECT a.asset_name, a.category, SUM(m.cost) AS total_maintenance_cost
+<pre>```SELECT a.asset_name, a.category, SUM(m.cost) AS total_maintenance_cost
 FROM assets a
 JOIN maintenance_logs m ON a.asset_id = m.asset_id
 GROUP BY a.asset_name, a.category
@@ -67,7 +67,7 @@ LIMIT 5;```</pre>
 
 ### Q4: What are the most common maintenance issue types?
 
-<pre>```sqlSELECT issue_type, COUNT(*) AS issue_count
+<pre>```SELECT issue_type, COUNT(*) AS issue_count
 FROM maintenance_logs
 GROUP BY issue_type
 ORDER BY issue_count DESC;```</pre>
@@ -77,7 +77,7 @@ ORDER BY issue_count DESC;```</pre>
 
 ### Q5: Which technicians handled the most maintenance tasks?
 
-<pre>```sqlSELECT technician, COUNT(*) AS task_count
+<pre>```SELECT technician, COUNT(*) AS task_count
 FROM maintenance_logs
 GROUP BY technician
 ORDER BY task_count DESC
@@ -88,7 +88,7 @@ LIMIT 5;```</pre>
 
 ### Q6: What is the average maintenance cost per issue type?
 
-<pre>```sqlSELECT issue_type, ROUND(AVG(cost), 2) AS avg_cost
+<pre>```SELECT issue_type, ROUND(AVG(cost), 2) AS avg_cost
 FROM maintenance_logs
 GROUP BY issue_type
 ORDER BY avg_cost DESC;```</pre>
@@ -98,7 +98,7 @@ ORDER BY avg_cost DESC;```</pre>
 
 ### Q7: Join assets with maintenance logs for full history
 
-<pre>```sqlSELECT a.asset_name, a.category, a.location, m.maintenance_date, m.technician, m.cost, m.issue_type
+<pre>```SELECT a.asset_name, a.category, a.location, m.maintenance_date, m.technician, m.cost, m.issue_type
 FROM assets a
 JOIN maintenance_logs m ON a.asset_id = m.asset_id
 ORDER BY m.maintenance_date DESC
