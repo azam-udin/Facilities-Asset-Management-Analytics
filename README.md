@@ -91,7 +91,7 @@ FROM maintenance_logs
 GROUP BY issue_type
 ORDER BY issue_count DESC;</pre>
 
-<img width="975" height="318" alt="image" src="https://github.com/user-attachments/assets/9d2214f6-9761-4ac4-b8fe-280ccca7b89e" />
+<img width="430" height="208" alt="image" src="https://github.com/user-attachments/assets/d91bfb75-bc82-4d39-bf27-f75ff6953eed" />
 
 
 ### Q5: Which technicians handled the most maintenance tasks?
