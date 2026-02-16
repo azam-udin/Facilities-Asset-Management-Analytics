@@ -91,7 +91,7 @@ FROM maintenance_logs
 GROUP BY issue_type
 ORDER BY issue_count DESC;</pre>
 
-<img width="430" height="208" alt="image" src="https://github.com/user-attachments/assets/d91bfb75-bc82-4d39-bf27-f75ff6953eed" />
+<img width="672" height="325" alt="image" src="https://github.com/user-attachments/assets/2a5007dc-6760-4806-b9b3-fc2f89e89ec2" />
 
 
 ### Q5: Which technicians handled the most maintenance tasks?
@@ -102,7 +102,7 @@ GROUP BY technician
 ORDER BY task_count DESC
 LIMIT 5;</pre>
 
-<img width="975" height="318" alt="image" src="https://github.com/user-attachments/assets/84ac4200-376e-4c18-8efb-82b0f7731995" />
+<img width="678" height="370" alt="image" src="https://github.com/user-attachments/assets/8992dbf2-df56-467e-a35d-3d27c92ffefb" />
 
 
 ### Q6: What is the average maintenance cost per issue type?
